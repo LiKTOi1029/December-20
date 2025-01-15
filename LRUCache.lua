@@ -6,10 +6,9 @@ function fSHOW(tab)
 	io.write("}".."\n")
 end
 function fINPUT(choice,tab)
-	print("I'm running!")
 	for _, string1 in ipairs(tab) do
 		if choice == string1 then io.write("Fetched " .."<"..string1..">"); table.insert(tab, 1, choice); break 
-		else table.insert(tab, 1, choice); table.remove(tab, 4); break end
+		else table.insert(tab, 1, choice); table.remove(tab, 4); io.write("Popped \""..tostring(tab[4]).."\" from the stack") break end
 	end
 	if #tab == 0 then table.insert(tab, 1, choice) end
 end
