@@ -12,4 +12,4 @@ Output: \{\<2\>\<1\>\<3\>\}\
 \
 Cache: \{\<1\>\<2\>\<3\>\}\
 Input: hello world\
-Output: \{\<hello world\>\<1\>\<2\>\}\
+Output: \{\<hello world\>\<1\>\<2\>\}
